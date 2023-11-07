@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:id="@+id/layout_quitDialog"
+    android:layout_height="wrap_content"
+    android:background="@color/mankey">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/zombie_starfish_eroded_regular"
+            android:text="@string/quit_title"
+            android:textColor="@color/heatran"
+            android:textSize="34sp" />
+
+        <TextView
+            android:layout_width="149dp"
+            android:layout_height="98dp"
+            android:fontFamily="@font/cc_samaritan_tall_lower_reg"
+            android:text="@string/quit_text"
+            android:textAlignment="center"
+            android:textColor="@color/heatran"
+            android:textSize="25sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/qtYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/buneary"
+                android:text="@string/quit_yes"
+                android:textColor="@color/heatran" />
+
+            <Button
+                android:id="@+id/qtNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/buneary"
+                android:text="@string/quit_no"
+                android:textColor="@color/heatran" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

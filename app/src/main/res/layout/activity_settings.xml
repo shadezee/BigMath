@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_settings"
+    android:background="@color/mankey"
+    tools:context=".Settings">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/surprze_birthday"
+        android:text="@string/settTitle"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/backBtnSett"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/pw_new_arrows"
+        android:rotation="90"
+        android:text="@string/backButton"
+        android:textColor="@color/heatran"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+
+    <ImageView
+        android:id="@+id/whiteBox"
+        android:layout_width="337dp"
+        android:layout_height="337dp"
+        android:alpha="0.3"
+        android:contentDescription="@string/noDesc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191"
+        app:srcCompat="@drawable/white" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchFx"
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@+id/whiteBox"
+        app:layout_constraintEnd_toEndOf="@+id/whiteBox"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/whiteBox"
+        app:layout_constraintTop_toTopOf="@+id/whiteBox"
+        app:layout_constraintVertical_bias="0.922"
+        app:thumbTint="@color/amaura" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchVibrate"
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@+id/whiteBox"
+        app:layout_constraintEnd_toEndOf="@+id/whiteBox"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/whiteBox"
+        app:layout_constraintTop_toTopOf="@+id/whiteBox"
+        app:layout_constraintVertical_bias="0.128"
+        app:thumbTint="@color/amaura" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchMusic"
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@+id/whiteBox"
+        app:layout_constraintEnd_toEndOf="@+id/whiteBox"
+        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintStart_toStartOf="@+id/whiteBox"
+        app:layout_constraintTop_toTopOf="@+id/whiteBox"
+        app:layout_constraintVertical_bias="0.507"
+        app:thumbTint="@color/amaura" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headlines_deluxe"
+        android:rotation="270"
+        android:text="@string/m1Item1"
+        android:textColor="@color/slakoth"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/whiteBox"
+        app:layout_constraintEnd_toEndOf="@+id/whiteBox"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="@+id/whiteBox"
+        app:layout_constraintTop_toTopOf="@+id/whiteBox"
+        app:layout_constraintVertical_bias="0.547" />
+
+    <SeekBar
+        android:id="@+id/musicVolSeek"
+        android:layout_width="138dp"
+        android:layout_height="32dp"
+        android:progressBackgroundTint="@color/slakoth"
+        android:thumbTint="@color/amaura"
+        app:layout_constraintBottom_toBottomOf="@+id/whiteBox"
+        app:layout_constraintEnd_toEndOf="@+id/whiteBox"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/whiteBox"
+        app:layout_constraintTop_toTopOf="@+id/whiteBox"
+        app:layout_constraintVertical_bias="0.524" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headlines_deluxe"
+        android:rotation="270"
+        android:text="@string/m1Item2"
+        android:textColor="@color/slakoth"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/whiteBox"
+        app:layout_constraintEnd_toEndOf="@+id/whiteBox"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="@+id/whiteBox"
+        app:layout_constraintTop_toTopOf="@+id/whiteBox"
+        app:layout_constraintVertical_bias="0.868" />
+
+    <TextView
+        android:layout_width="96dp"
+        android:layout_height="55dp"
+        android:fontFamily="@font/headlines_deluxe"
+        android:rotation="270"
+        android:text="@string/m1Item3"
+        android:textColor="@color/slakoth"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/whiteBox"
+        app:layout_constraintEnd_toEndOf="@+id/whiteBox"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="@+id/whiteBox"
+        app:layout_constraintTop_toTopOf="@+id/whiteBox"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="341dp"
+        android:layout_height="175dp"
+        android:alpha="0.3"
+        android:src="@drawable/white_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/headlines_deluxe"
+        android:text="@string/menu2Name"
+        android:textColor="@color/slakoth"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <RadioGroup
+        android:id="@+id/themeGrp"
+        android:layout_width="120dp"
+        android:layout_height="121dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.888">
+
+        <RadioButton
+            android:id="@+id/rbX"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:buttonTint="@color/heatran"
+            android:text="@string/m2Item1" />
+
+        <RadioButton
+            android:id="@+id/rbY"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:buttonTint="@color/heatran"
+            android:text="@string/m2Item2" />
+
+        <RadioButton
+            android:id="@+id/rbZ"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:buttonTint="@color/heatran"
+            android:text="@string/m2Item3" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/applySet"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/amaura"
+        android:text="@string/set"
+        android:textColor="@color/heatran"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/applySet"
+        app:layout_constraintVertical_bias="0.975" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,120 @@
+<resources>
+    <!--    Basic Things -->
+    <string name="app_name">BigMath</string>
+    <string name="app_version">Version 1.0</string>
+    <string name="backButton">s</string>
+    <string name="noDesc">No description</string>
+    <string name="correctAns">RIGHT!</string>
+    <string name="wrongAns">WRONG!</string>
+
+    <!--Settings Activity    -->
+    <string name="settTitle">Settings</string>
+    <string name="m1Item1">Music</string>
+    <string name="m1Item2">FX</string>
+    <string name="m1Item3">Vibrate</string>
+    <string name="menu2">Theme Controls</string>
+    <string name="menu2Name">Set Theme</string>
+    <string name="m2Item1">X</string>
+    <string name="m2Item2">Y</string>
+    <string name="m2Item3">Z</string>
+    <string name="set">Apply</string>
+
+    <!--    Home Page Activity-->
+    <string name="single_player">Solo</string>
+    <string name="many_players">Multiplayer</string>
+    <string name="about">About</string>
+
+    <!--    Home Page Maths quotes-->
+    <string name="quote1">Pure mathematics is, in its way, the poetry of logical ideas - Albert Einstein</string>
+    <string name="quote2">Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers. - Shakuntala Devi</string>
+    <string name="quote3">Mathematics is the music of reason. - James Joseph Sylvester</string>
+    <string name="quote4">There should be no such thing as boring mathematics. - Edsger W. Dijkstra</string>
+    <string name="quote5">It is impossible to be a mathematician without being a poet in soul. - Sofia Kovalevskaya</string>
+    <string name="quote6">Mathematics consists of proving the most obvious thing in the least obvious way. - George Pólya</string>
+    <string name="quote7">Why do children dread mathematics? Because of the wrong approach. Because it is looked at as a subject. - Shakuntala Devi</string>
+    <string name="quote8">The only way to learn mathematics is to do mathematics. - Paul R. Halmos</string>
+    <string name="quote9">The essence of math is not to make simple things complicated, but to make complicated things simple. - Stan Gudder</string>
+    <string name="quote10">In mathematics, you don’t understand things. You just get used to them. - John von Neumann</string>
+
+    <!--    Speed Screen Activity-->
+    <string name="diffLevel">Difficulty Level</string>=
+    <string name="scrnTitle">Choose Difficulty for:</string>
+    <string name="rapid">RAPIDFIRE</string>
+    <string name="rapidGTN">RAPIDFIRE - 90s</string>
+    <string name="rapidQC">RAPIDFIRE - 180s</string>
+    <string name="sudden">SUDDENDEATH</string>
+    <string name="suddenGTN">SUDDENDEATH - 25s</string>
+    <string name="suddenQC">SUDDENDEATH - 50s</string>
+    <string name="cas">CASUAL</string>
+    <string name="casGTN">CASUAL</string>
+    <string name="casQC">CASUAL</string>
+    <string name="beg">BEGIN</string>
+    <!--    Single Player Games Activity-->
+    <string name="scrnTit">Pick Game</string>
+    <string name="scrlDesc">Game Table</string>
+    <string name="gtn">GuessTheNumber</string>
+    <string name="calc">QuickCalc</string>
+
+    <!--    Numpad-->
+    <string name="num0">0</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+    <string name="backSpace">L</string>
+    <string name="enter">g</string>
+
+    <!--GuessTheNumberActivity-->
+    <string name="ques_1">The number is </string>
+    <string name="ques_2">The number lies between</string>
+    <string name="ques_3">between </string>
+    <string name="ques_4"> and </string>
+    <string name="ques_5"> The sum of digits is </string>
+    <!--    QuickCalcActivity-->
+    <!--    <string name="qcEquals">=</string>-->
+    <!--    <string name="qcMinus">-</string>-->
+    <!--    <string name="qcPlus">+</string>-->
+    <!--    <string name="qcDivide">/</string>-->
+    <!--    <string name="qcMultiply">x</string>-->
+
+    <!--    Help Activity-->
+    <string name="title">How to play?</string>
+    <string name="help">?</string>
+    <!--        GTN HELP-->
+    <string name="gtnRpd1">The secret number lies between 2 given values.</string>
+    <string name="gtnRpd2">Find as many as you can before the timer runs out.</string>
+    <string name="gtnSud1">The secret number lies between 2 given values.</string>
+    <string name="gtnSud2">Be careful, if you get one wrong, its game over!</string>
+    <string name="gtnCas1">The secret number lies between 2 given values.</string>
+    <string name="gtnCas2">Use your luck to find this number.</string>
+    <!--    QC HELP-->
+    <string name="qcRpd1">Run like HELL!</string>
+    <string name="qcRpd2">Answer as many as you can before the timer runs out!</string>
+    <string name="qcSud1">Its game over!</string>
+    <string name="qcSud2">No time to die, if you get one wrong…</string>
+    <string name="qcCas1">Practice well!</string>
+    <string name="qcCas2">Take your time answering the questions.</string>
+
+    <string name="button">OK</string>
+
+    <!--    ResultActivity-->
+    <string name="rsltTitle">Result</string>
+    <string name="rsltB1">OK! </string>
+    <string name="rsltB2">Replay! </string>
+    <string name="attempted">Attempted :</string>
+    <string name="correct">Correct :</string>
+    <string name="score">Score :</string>
+    <string name="totScore">Total Score :</string>
+    <!--    Quit Game Dialog-->
+    <string name="quit_title">EXIT</string>
+    <string name="quit_text">Are you sure you want to quit?</string>
+    <string name="quit_yes">Yes</string>
+    <string name="quit_no">Back</string>
+    <string name="backspaceIconButton">backspace</string>
+    <string name="numNegative">-</string>
+</resources>

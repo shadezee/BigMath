@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:id="@+id/layout_helpDialog"
+    android:layout_height="wrap_content"
+    android:background="@color/mankey">
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/helpTit"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/zombie_starfish_eroded_regular"
+            android:text="@string/title"
+            android:textColor="@color/heatran"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/gameType"
+            android:padding="5dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cc_samaritan_tall_lower_reg"
+            android:textColor="@color/slakoth" />
+
+        <TextView
+            android:id="@+id/helpTv"
+            android:layout_width="200dp"
+            android:padding="1.5dp"
+
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cc_samaritan_tall_lower_reg"
+            android:textAlignment="center"
+            android:textColor="@color/heatran"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/helpTv1"
+            android:layout_width="200dp"
+            android:padding="1.5dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cc_samaritan_tall_lower_reg"
+            android:textAlignment="center"
+            android:textColor="@color/heatran"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/popClose"
+            android:padding="5dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/buneary"
+            android:text="@string/button"
+            android:textColor="@color/heatran" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

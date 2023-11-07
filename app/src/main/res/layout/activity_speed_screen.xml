@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mankey"
+    android:id="@+id/layout_speedScreen"
+    tools:context=".SpeedScreen">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/surprze_birthday"
+        android:text="@string/diffLevel"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <View
+        android:id="@+id/navDividerTop2"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/backBtnSett3"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/pw_new_arrows"
+        android:rotation="90"
+        android:text="@string/backButton"
+        android:textColor="@color/heatran"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/zombie_starfish_eroded_regular"
+        android:text="@string/scrnTitle"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/navDividerTop2"
+        app:layout_constraintVertical_bias="0.234" />
+
+    <TextView
+        android:id="@+id/gameNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/zombie_starfish_eroded_regular"
+        android:text="@string/scrnTitle"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/navDividerTop2"
+        app:layout_constraintVertical_bias="0.274" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/rapBtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/mankey"
+        android:fontFamily="@font/zombie_starfish_eroded_regular"
+        android:text="@string/rapid"
+        android:textAllCaps="false"
+        android:textColor="@color/heatran"
+        android:textSize="28sp"
+        app:icon="@drawable/rap_n"
+        app:iconSize="40dp"
+        app:iconTint="@color/heatran"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/casBtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/mankey"
+        android:fontFamily="@font/zombie_starfish_eroded_regular"
+        android:text="@string/cas"
+        android:textAllCaps="false"
+        android:textColor="@color/heatran"
+        android:textSize="28sp"
+        android:gravity="center_horizontal"
+        app:icon="@drawable/cas_d"
+        app:iconSize="40dp"
+        app:iconTint="@color/heatran"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sudBtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/mankey"
+        android:fontFamily="@font/zombie_starfish_eroded_regular"
+        android:text="@string/sudden"
+        android:textAllCaps="false"
+        android:textColor="@color/heatran"
+        android:textSize="28sp"
+        app:icon="@drawable/sud_y_incaps"
+        app:iconSize="40dp"
+        app:iconTint="@color/heatran"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="1"
+        android:src="@drawable/start_a"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.683" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/startBtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:alpha="1"
+        android:backgroundTint="@color/mankey"
+        android:fontFamily="@font/zombie_starfish_eroded_regular"
+        android:text="@string/beg"
+        android:textColor="@color/heatran"
+        android:textSize="28sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="1"
+        android:src="@drawable/start_a"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.683" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
